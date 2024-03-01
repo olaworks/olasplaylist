@@ -1,0 +1,64 @@
+body , html {
+    overflow-x: hidden;
+    background-color: #08424c;
+}
+   
+* {
+    margin: 0;
+    padding: 0em;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   }
+
+
+.navbar {
+    font-size: 1.3em;
+    position: absolute;
+    padding: 3em 0em;
+    top: 1.5em;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Helvetica;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .logo {
+    color: #cce2e6;
+    font-size: 3em;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links_list {
+    margin: 0 9px;
+    color: #08424c;
+    font-weight: bold;
+    font-size: 3vim;
+    text-decoration: none;
+  }
+  .nav-links_list:hover {
+    color: #94e6f4;
+    font-weight: bold;
+    font-size: 3vim;
+  }
+
+  .sectionA {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url(./print.png);*/
+  }
+
+  .mySlides {
+    width: 100%;
+    
+  }
