@@ -1,7 +1,7 @@
 body , html {
     overflow-x: hidden;
     background-color: white;
-    font-family: Helvetica;
+    font-family: "Anta", sans-serif;
 
 }
    
@@ -33,23 +33,25 @@ body , html {
   }
   .logo {
     color: #cce2e6;
-    font-size: 3em;
+    font-size: 4em;
     margin-left: 30px;
     display: flex;
     align-items: center;
   }
   
   .nav-links_list {
+    font-family: Anta;
     margin: 0 9px;
     color: #08424c;
     font-weight: bold;
-    font-size: 3vim;
+    font-size: 1.3em;
     text-decoration: none;
   }
   .nav-links_list:hover {
     color: #94e6f4;
     font-weight: bold;
     font-size: 3vim;
+    transition-duration: 0.75s;
   }
 
   .sectionA {
@@ -78,11 +80,18 @@ body , html {
   }
 
   .secretHero {
-    display: flex;
+    display: block;
     align-items: center;
     background-color: aliceblue;
     padding: 3em;
     text-align: center;
     margin: 50%;
     font-weight: 200;
+    width: 100em;
+    transition-duration: 0.75s;
+  }
+
+  .secretHero:hover {
+    background-color: rgb(255, 85, 0);
+    color: white;
   }
