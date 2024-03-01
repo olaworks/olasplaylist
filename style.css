@@ -1,6 +1,8 @@
 body , html {
     overflow-x: hidden;
-    background-color: #08424c;
+    background-color: white;
+    font-family: Helvetica;
+
 }
    
 * {
@@ -13,15 +15,16 @@ body , html {
 
 .navbar {
     font-size: 1.3em;
-    position: absolute;
+    position: fixed;
+    top: 0;
     padding: 3em 0em;
-    top: 1.5em;
     left: 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 10px;
     font-family: Helvetica;
+    
   }
   .nav-links {
     display: flex;
@@ -61,4 +64,25 @@ body , html {
   .mySlides {
     width: 100%;
     
+  }
+
+  .sectionAbackground {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/theinternet_cutout.png);
+    background-size: cover;
+
+  }
+
+  .secretHero {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 3em;
+    text-align: center;
+    margin: 50%;
+    font-weight: 200;
   }
