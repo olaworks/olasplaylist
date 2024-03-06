@@ -96,7 +96,7 @@ body , html {
     color: white;
   }
 
-  .grid-hero{
+  .grid-hero_popsmoke{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
@@ -105,10 +105,11 @@ body , html {
     padding: 2em;
   }
 
-  .left-grid {grid-row: 1 / span 1; grid-column: 1 / span 1;}
-  .right-grid {grid-row: 1 / span 1; grid-column: 2 / span 2;}
+  .left-grid_popsmoke {grid-row: 1 / span 1; grid-column: 1 / span 1;}
+  .right-grid_popsmoke {grid-row: 1 / span 1; grid-column: 2 / span 2;}
 
-  .left-grid {
+
+  .left-grid_popsmoke {
     background-image: url(images/pop_album.jpeg);
     background-size: cover;
   
@@ -117,4 +118,6 @@ body , html {
   .right-grid {
     padding: 2em;
   }
+
+
 
